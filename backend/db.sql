@@ -153,7 +153,7 @@ INSERT INTO `comentarios` VALUES
 (23,10,2,'muito brabo!!',5),
 (24,9,5,'teste teste',3),
 (25,9,4,'jogo maravilhoso! um pouco pesado para a minha maquina mas rodou ^^',4),
-(26,9,32,'muito dificil, nao gostei',4),
+(26,9,10,'muito dificil, nao gostei',4),
 (27,9,1,'jacy passou por aqui',5);
 
 
@@ -186,29 +186,7 @@ INSERT INTO `clientes` VALUES
 (5,'admin','admin@gmail.com','admin'),
 (6,'nicole ','nicole@gmail.com','12345'),
 (7,'gustavo borges lima','gustavoborges@gmail.com','12345'),
-(8,'leandro','leandro@gmail.com','12345'),
-(9,'a','a@gmail.com','123'),
-(10,'b','b@gmail.com','123'),
-(11,'aa','aaaa','123'),
-(12,'z','z@gmail.com','123'),
-(13,'x','x@gmail.com','123'),
-(14,'n','n@gmail.com','1'),
-(15,'aaaaa','aaaaa@gmail.com','123'),
-(16,'qqq','qqq@gmail.com','123'),
-(17,'xxx','xxx@gmail.com','123'),
-(18,'valdderi douglas','valdinho@gmail.com','123'),
-(19,'teste32','teste32Egmail.com','32'),
-(20,'aaaaaa','aaaaa@gmail.com','123456'),
-(21,'cc','cc@gmail.com','12345'),
-(22,'nnnn','nnnn@gmail.com','12345'),
-(23,'p','p@gmail.com','1'),
-(24,'lll','lll@gmail.com','123'),
-(25,'zaza','zaza@gmail.com','1233'),
-(26,'aaaaaaaaaa','aaaaaaaaaa@gmail.com','123'),
-(27,'dada','dada@gmail.com','12345'),
-(28,'afafafa','fafafa@gmail.com','123'),
-(29,'afafafa','fafafa@gmail.com','123'),
-(30,'fafafa','fafa@gmail.com','123'),
-(31,'ewqewq','ewqewq@gmail.com','123'),
-(32,'Caio Almeida','iscaderato@gmail.com','medealminhas');
+(8,'leandro','leandro@gmail.com','12345')
+(9,'valdderi douglas','valdinho@gmail.com','123'),
+(10,'Caio Almeida','iscaderato@gmail.com','medealminhas');
 
