@@ -2,11 +2,6 @@
  🎮🟣 GameWorld 🟣🎮
 </h1>
 
-<p align="center">
-  <a href="#projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#requisitos">Como rodar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
-
 <span id="projeto">
   
 # :bookmark_tabs: Sobre o projeto
