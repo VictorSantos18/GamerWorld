@@ -1,0 +1,47 @@
+.downloades-game-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 244px;
+    width: 100%;
+    height: 330px;
+    box-shadow:0 0 80px rgb(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.downloades-game-container .downloades-game-img{
+    width: 100%;
+    height: 100%;
+}
+.downloades-game-container:hover{
+    transform: scale(1.01);
+}
+.downloades-game-container .downloades-game-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.downloades-game-container .downloades-game-title{
+    word-break: break-all;
+    justify-content: center;
+    color: var(--text-color);
+    font-family: monospace;
+    font-size: 1.35rem
+}
+.downloades-game-container .downloades-game-cost, .downloades-game-category{
+    color: var(--text-color);
+}
+.downloades-game-container .downloades-game-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+}
+.btn-annoucement{
+    padding: 8px 12px;
+    background: var(--orange-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

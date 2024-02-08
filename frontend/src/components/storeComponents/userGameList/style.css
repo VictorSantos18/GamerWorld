@@ -1,0 +1,54 @@
+.filter-bar{
+    padding: 1rem 0 2rem 0;
+    display: flex;
+    gap: 1rem;
+}
+.category-dropdown{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.category-dropdown select{
+    background: var(--second-color);
+    border: 1px solid var(--text-color);
+    color: white;
+    border-radius: 10px;
+    padding: 6px 10px;
+    width: 200px;
+}
+.category-dropdown label{
+    color: var(--text-color);
+}
+.downloaded-games-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.search-input input{
+    background: var(--second-color);
+    border: 1px solid var(--text-color);
+    color: white;
+    border-radius: 10px;
+    padding: 6px 10px;
+    width: 288px;
+}
+@media(max-width:800px) {
+
+}
+@media(max-width:901.11px) {
+    .filter-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .search-input input{
+        width: 100%;
+    }
+    .category-dropdown{
+        justify-content: space-between;
+    }
+    .downloaded-games-list{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,30 @@
+.comment-list{
+    width: 100%;
+}
+.comment-list .comment-item{
+    padding: 1rem 0;
+}
+.comment-list .comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment-list .comment-header .imgAndname{
+    display: flex;
+    align-items: center;
+    gap: 1REM;
+}
+.comment-list .comment-header .imgAndname img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.comment-list .comment-header .imgAndname h3{
+    color: var(--text-color);
+}
+.star-pink{
+    color: var(--orange-color);
+}
+.star-black{
+    color: #000;
+}

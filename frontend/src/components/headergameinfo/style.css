@@ -1,0 +1,139 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    background: var(--second-2-color);
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+.info-container .image-box{
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.info-container .image-box .image-content{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 2fr);
+}
+.info-container .image-box .image-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.info-container .image-box .image-content img:hover{
+transform: scale(1.01);
+}
+.info-container .img-info{
+    display: flex;
+    gap: 2rem;
+}
+.info-container .gamebox-img img{
+    width: 100%;
+    height: 400px;
+}
+.info-container .gamebox-img .gamebox-nome span{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+.gameinfo-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info-container .gamebox-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   padding-bottom: 2rem;
+    max-width: 800px;
+    width: 100%;
+}
+.info-container .gamebox-info .gamebox-content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 200;
+    font-size: 1.3rem;
+    color: var(--text-color);  
+    padding: 2rem 0;
+}
+.info-container .gamebox-info .gamebox-nome span{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.info-container .gamebox-info .gamebox-categoria h2{
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: var(--text-color); 
+}
+.info-container .gamebox-info .gamebox-categoria span{
+    color: white;
+}
+.info-container .gamebox-info .gamebox-preco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-container .gamebox-info .gamebox-preco h2{
+    font-weight: 200;
+    font-size: 1.4rem;
+    color:white; 
+}
+.classification p{
+    font-size: 1.2rem;
+}
+.download-bar{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: var(--text-color);
+}
+.progressPercent{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+
+@media(max-width: 1557px) {
+    .info-container .img-info {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1229px){
+    .info-container .img-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-container .image-box .image-content{
+        grid-template-columns: repeat(2, 3fr);
+    }
+}
+
+@media(max-width: 882px){
+    .info-container .image-box .image-content{
+        grid-template-columns: repeat(1, 6fr);
+    }
+    .info-container .gamebox-img img {
+        width: 100%;
+        min-width: 0;
+        height: 400px;
+    }
+}

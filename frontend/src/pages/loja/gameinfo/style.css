@@ -1,0 +1,23 @@
+.gameinformation-container{
+    display: flex;
+    padding: 0 12%;
+    gap: 2rem;
+  
+}
+.title-back-gameinfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.back-icon{
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+@media(max-width: 1229px){
+    .gameinformation-container{
+        flex-direction: column;
+        padding: 0;
+    }
+}

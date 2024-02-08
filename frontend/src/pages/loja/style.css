@@ -1,0 +1,19 @@
+.store-container{
+    /* background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../../assets/StoreBackground.jpg'); */
+    background: var(--second-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: margin-left 0.3s ease-in-out;
+    width: 100%;
+    min-height: 100vh;
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 0;
+    padding: 0 4rem 4rem 4rem;
+}
+
+.bg-annoucement{
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    width: 100%;
+}

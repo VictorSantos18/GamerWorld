@@ -1,0 +1,27 @@
+.annoucement-container{
+    display: flex;
+    justify-content: center;
+}
+.annoucement-container .annoucement-content {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.annoucement-container .annoucement-info{
+    gap: 1.4rem;
+    display: flex;
+    margin: 1rem 0;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px;
+   
+ }
+ ::-webkit-scrollbar-track{
+    background: var(--first-color);
+ }
+ ::-webkit-scrollbar-thumb{
+    background: var(--third-color);
+    border-radius: 20px;
+ }

@@ -1,0 +1,61 @@
+.lateral-info{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 40px;
+}
+.lateral-info .classificação {
+    width: 350px;
+    height: 185px;
+    background: var(--second-2-color);
+    padding: 0.8rem;
+    margin-bottom: 2rem; 
+}
+.lateral-info .classificação .top{
+    padding-bottom: 1rem;
+}
+.lateral-info .classificação .top h2{
+    font-size: 1.3rem;
+}
+.lateral-info .classificação .middle{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+.lateral-info .classificação .middle img{
+    width: 60px;
+    height: 60px;
+}
+
+.lateral-info .idioma .table{
+    background: var(--second-2-color);
+    padding: 1rem;
+}
+
+.lateral-info .idioma .table thead th{
+    padding: 0.2rem 0.3rem;
+    text-align: left;
+}
+.lateral-info .idioma .table tbody td{
+    padding: 0.2rem 0.3rem;
+    text-align: left;
+}
+
+h2, p,td,th{
+    color: var(--text-color);
+}
+
+@media(max-width: 1229px){
+    .lateral-info{
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+@media(max-width: 850px){
+    .lateral-info{
+        flex-direction: column;
+    }
+    .lateral-info .classificação{
+        display: none;
+    }
+}
