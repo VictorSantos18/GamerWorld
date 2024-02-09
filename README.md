@@ -15,8 +15,8 @@ Dentro da pasta backend, no arquivo ``` .env ``` vocÃª vai colocar suas informaÃ
 ``` 
 DATABASE_HOST=localhost
 DATABASE_USER=root
-DATABASE_PASSWORD=DataBaseVitao2023
-DATABASE_NAME=crud
+DATABASE_PASSWORD=your_password
+DATABASE_NAME=your_database_name
 ```
 
 
